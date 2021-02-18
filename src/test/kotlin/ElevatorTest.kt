@@ -1,7 +1,7 @@
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
 
-internal class KataTest() {
+internal class ElevatorTest() {
 
     @Test
     fun testShallPass(): Unit
@@ -12,7 +12,7 @@ internal class KataTest() {
     @Test
     fun testHandleReturnTrue(): Unit
     {
-        val kata = Kata()
+        val kata = Elevator()
         assertEquals(true, kata.exec())
     }
 
