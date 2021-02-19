@@ -17,6 +17,12 @@ Given the elevator is positioned on the ground floor:
 
 Then the doors should open at floor 3, basement, ground, basement, floor 2, basement, floor 1, and floor 3 in this order.
 
+Things to test:
+- [ ] the building has 5 floors, from -1 to 3
+- [ ] the elevator can be called from any plan
+- [ ] the elevator can be called only if is not in use
+- [ ] we should calculate the time of a travel from a given floor
+
 ## PART II
 
 The elevator is not fast enough, so as an experiment to speed it up, the idea is to allow the elevator to queue the requests and optimize the trips.
@@ -30,6 +36,12 @@ Given the elevator is positioned on the ground floor:
 - and there is a call from floor 1 to go to floor 3
 
 Then the doors should open at floor 3, floor 2, the ground floor, the basement, floor 1 and floor 3, in this order.
+
+Things to test:
+- [ ] the building has 5 floors, from -1 to 3
+- [ ] the elevator can be called from any plan
+- [ ] the elevator queue the requests and execute them based on the direction he is going
+- [ ] we should calculate the time of a travel from a given floor
 
 ### Non functional requiremenets
 
